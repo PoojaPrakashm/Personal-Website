@@ -1,0 +1,31 @@
+.info-icon {
+  z-index: 200;
+  position: absolute;
+  padding: 7px;
+  margin: 0;
+  display: inline-block;
+  right: 0;
+  bottom: 0;
+  background-color: #00ff00;
+}
+.info-anchor {
+  background-color: #0000ff;
+  padding: 0;
+}
+.info-img {
+  background-color: #ffffff;
+  margin: 0;
+}
+[data-role="header"], [data-role="footer"] {
+  height: 50px !important;
+  background-color: #ff0000 !important;
+  width: 100% !important;
+  border: 0 !important;
+  text-align: center !important;
+  text-shadow: none !important;
+  color: #ffffff !important;
+}
+[data-role="footer"] {
+  bottom: 0;
+  position: absolute;
+}
